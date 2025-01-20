@@ -1,8 +1,23 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<head>  
+ <title>First jQuery Example</title>  
+ <script type="text/javascript" src="~/lib/jquery/dist/jQuery.min.js">  
+ </script>  
+ <script type="text/javascript" language="javascript">  
+ $(document).ready(function() {  
+ $("p").css("background-color", "cyan");  
+ });  
+ </script>  
+ </head>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+  
+<body>  
+<p>The first paragraph is selected.</p>  
+<p>The second paragraph is selected.</p>  
+<p>The third paragraph is selected.</p>  
+</body> 
